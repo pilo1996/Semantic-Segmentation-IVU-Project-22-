@@ -49,9 +49,11 @@ I have been using miniconda and PyCharm set to the Virtual Environment to get ev
 ### Predictions
 In the following image there are 3 examples with 3 desired outputs and 3 predictions with 22 Epochs. As can be seen, the results are fine but not detailed, especially when it comes to pedestrians segmentation.
 
-![Example with 3 predictions](/Predictions.png?raw=true "Three predictions")
+![Example with 3 predictions with 22 Epochs](/Predictions.png?raw=true "Three predictions with 22 Epochs")
 
 The following predictions example is made by using a trained model over 100 Epochs
+
+![Example with 3 predictions with 100 Epochs](/Predictions_100.png?raw=true "Three predictions with 100 Epochs")
 
 ### Accuracy: `84.12%`
 The results are not bad but can be improved. Data Augmentation will help into enhancing the model generalization.
