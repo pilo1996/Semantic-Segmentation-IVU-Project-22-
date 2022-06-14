@@ -47,18 +47,30 @@ I have been using miniconda and PyCharm set to the Virtual Environment to get ev
 
 ## Results
 ### Predictions
-In the following image there are 3 examples with 3 desired outputs and 3 predictions. As can be seen, the results are fine but not detailed, especially when it comes to pedestrians segmentation.
+In the following image there are 3 examples with 3 desired outputs and 3 predictions with 22 Epochs. As can be seen, the results are fine but not detailed, especially when it comes to pedestrians segmentation.
 
 ![Example with 3 predictions](/Predictions.png?raw=true "Three predictions")
+
+The following predictions example is made by using a trained model over 100 Epochs
 
 ### Accuracy: `84.12%`
 The results are not bad but can be improved. Data Augmentation will help into enhancing the model generalization.
 
-### Loss Curve (over 22 Epochs)
-![Loss Curve](/Loss_curve.png?raw=true "Loss Curve")
+The same model trained over 100 Epochs improved its accuracy estimation up to `86.30%`. 
 
-### Accuracy Curve (over 22 Epochs)
-![Accuracy Curve](/Accuracy_curve.png?raw=true "Accuracy Curve")
+### Loss Curve 
+#### Over 22 Epochs
+![Loss Curve with 22 Epochs](/Loss_curve.png?raw=true "Loss Curve with 22 Epochs")
+
+#### Over 100 Epochs
+![Loss Curve with 100 Epochs](/Loss_curve_100.png?raw=true "Loss Curve with 100 Epochs")
+
+### Accuracy Curve
+#### Over 22 Epochs
+![Accuracy Curve with 22 Epochs](/Accuracy_curve.png?raw=true "Accuracy Curve with 22 Epochs")
+
+#### Over 100 Epochs
+![Accuracy Curve with 100 Epochs](/Accuracy_curve_100.png?raw=true "Accuracy Curve with 100 Epochs")
 
 ### Benchmarks
 On 14-inch MacBook Pro (2021, AC powered):
