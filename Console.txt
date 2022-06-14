@@ -1,0 +1,142 @@
+/Users/filippo/miniforge3/envs/ivu/bin/python3.9 "/Users/filippo/Desktop/UNIVE/Image And Video Understanding/Project/Image Segementation/main.py"
+Segmentation Models: using `keras` framework.
+Loading images...
+100%|██████████| 500/500 [00:00<00:00, 867.99it/s]
+100%|██████████| 2975/2975 [00:03<00:00, 847.30it/s]
+ Done.
+
+Loading labels...
+Done.
+
+  0%|          | 0/3475 [00:00<?, ?it/s]Converting images to float type...
+Metal device set to: Apple M1 Pro
+
+systemMemory: 16.00 GB
+maxCacheSize: 5.33 GB
+
+100%|██████████| 3475/3475 [00:04<00:00, 818.28it/s]
+Done.
+
+
+Building Model...
+Done.
+
+Compiling model...
+Done.
+
+Processing Dataset...
+Done.
+
+######## DATASET INFO ########
+Train set size: 2224.0
+Validation set size: 556.0
+Test set size: 139.0
+------------------------------
+Total size: 3475
+
+Evaluating untrained model...
+22/22 - 8s - loss: 2.4471 - accuracy: 0.0557 - 8s/epoch - 345ms/step
+Untrained model, accuracy:  5.57% 
+
+Fitting the model...
+Epoch 1/22
+139/139 [==============================] - ETA: 0s - loss: 0.9630 - accuracy: 0.6757
+Epoch 1: val_accuracy improved from -inf to 0.11751, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 92s 640ms/step - loss: 0.9630 - accuracy: 0.6757 - val_loss: 16281.9521 - val_accuracy: 0.1175
+Epoch 2/22
+139/139 [==============================] - ETA: 0s - loss: 0.7414 - accuracy: 0.7545
+Epoch 2: val_accuracy improved from 0.11751 to 0.25558, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 89s 634ms/step - loss: 0.7414 - accuracy: 0.7545 - val_loss: 2.6539 - val_accuracy: 0.2556
+Epoch 3/22
+139/139 [==============================] - ETA: 0s - loss: 0.6828 - accuracy: 0.7761
+Epoch 3: val_accuracy improved from 0.25558 to 0.45038, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 87s 628ms/step - loss: 0.6828 - accuracy: 0.7761 - val_loss: 2.0037 - val_accuracy: 0.4504
+Epoch 4/22
+139/139 [==============================] - ETA: 0s - loss: 0.6503 - accuracy: 0.7862
+Epoch 4: val_accuracy improved from 0.45038 to 0.53113, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 87s 629ms/step - loss: 0.6503 - accuracy: 0.7862 - val_loss: 1.8333 - val_accuracy: 0.5311
+Epoch 5/22
+139/139 [==============================] - ETA: 0s - loss: 0.6056 - accuracy: 0.8022
+Epoch 5: val_accuracy did not improve from 0.53113
+139/139 [==============================] - 88s 629ms/step - loss: 0.6056 - accuracy: 0.8022 - val_loss: 1.7144 - val_accuracy: 0.5245
+Epoch 6/22
+139/139 [==============================] - ETA: 0s - loss: 0.6364 - accuracy: 0.7899
+Epoch 6: val_accuracy improved from 0.53113 to 0.58127, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 88s 630ms/step - loss: 0.6364 - accuracy: 0.7899 - val_loss: 1.7065 - val_accuracy: 0.5813
+Epoch 7/22
+139/139 [==============================] - ETA: 0s - loss: 0.5802 - accuracy: 0.8104
+Epoch 7: val_accuracy improved from 0.58127 to 0.60749, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 88s 630ms/step - loss: 0.5802 - accuracy: 0.8104 - val_loss: 1.3089 - val_accuracy: 0.6075
+Epoch 8/22
+139/139 [==============================] - ETA: 0s - loss: 0.5434 - accuracy: 0.8228
+Epoch 8: val_accuracy improved from 0.60749 to 0.75948, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 88s 631ms/step - loss: 0.5434 - accuracy: 0.8228 - val_loss: 0.8195 - val_accuracy: 0.7595
+Epoch 9/22
+139/139 [==============================] - ETA: 0s - loss: 0.5326 - accuracy: 0.8257
+Epoch 9: val_accuracy improved from 0.75948 to 0.76248, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 88s 631ms/step - loss: 0.5326 - accuracy: 0.8257 - val_loss: 0.7688 - val_accuracy: 0.7625
+Epoch 10/22
+139/139 [==============================] - ETA: 0s - loss: 0.5259 - accuracy: 0.8278
+Epoch 10: val_accuracy improved from 0.76248 to 0.79718, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 88s 634ms/step - loss: 0.5259 - accuracy: 0.8278 - val_loss: 0.6339 - val_accuracy: 0.7972
+Epoch 11/22
+139/139 [==============================] - ETA: 0s - loss: 0.5059 - accuracy: 0.8338
+Epoch 11: val_accuracy improved from 0.79718 to 0.82459, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 88s 631ms/step - loss: 0.5059 - accuracy: 0.8338 - val_loss: 0.5448 - val_accuracy: 0.8246
+Epoch 12/22
+139/139 [==============================] - ETA: 0s - loss: 0.4971 - accuracy: 0.8369
+Epoch 12: val_accuracy did not improve from 0.82459
+139/139 [==============================] - 88s 631ms/step - loss: 0.4971 - accuracy: 0.8369 - val_loss: 0.7321 - val_accuracy: 0.7650
+Epoch 13/22
+139/139 [==============================] - ETA: 0s - loss: 0.4860 - accuracy: 0.8398
+Epoch 13: val_accuracy did not improve from 0.82459
+139/139 [==============================] - 88s 630ms/step - loss: 0.4860 - accuracy: 0.8398 - val_loss: 0.6242 - val_accuracy: 0.8038
+Epoch 14/22
+139/139 [==============================] - ETA: 0s - loss: 0.4691 - accuracy: 0.8454
+Epoch 14: val_accuracy improved from 0.82459 to 0.83061, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 88s 630ms/step - loss: 0.4691 - accuracy: 0.8454 - val_loss: 0.5436 - val_accuracy: 0.8306
+Epoch 15/22
+139/139 [==============================] - ETA: 0s - loss: 0.4788 - accuracy: 0.8417
+Epoch 15: val_accuracy did not improve from 0.83061
+139/139 [==============================] - 88s 635ms/step - loss: 0.4788 - accuracy: 0.8417 - val_loss: 0.6913 - val_accuracy: 0.7829
+Epoch 16/22
+139/139 [==============================] - ETA: 0s - loss: 0.4515 - accuracy: 0.8501
+Epoch 16: val_accuracy did not improve from 0.83061
+139/139 [==============================] - 88s 630ms/step - loss: 0.4515 - accuracy: 0.8501 - val_loss: 0.5614 - val_accuracy: 0.8146
+Epoch 17/22
+139/139 [==============================] - ETA: 0s - loss: 0.4542 - accuracy: 0.8494
+Epoch 17: val_accuracy improved from 0.83061 to 0.83202, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 88s 634ms/step - loss: 0.4542 - accuracy: 0.8494 - val_loss: 0.5430 - val_accuracy: 0.8320
+Epoch 18/22
+139/139 [==============================] - ETA: 0s - loss: 0.4360 - accuracy: 0.8545
+Epoch 18: val_accuracy did not improve from 0.83202
+139/139 [==============================] - 91s 650ms/step - loss: 0.4360 - accuracy: 0.8545 - val_loss: 0.5709 - val_accuracy: 0.8150
+Epoch 19/22
+139/139 [==============================] - ETA: 0s - loss: 0.4334 - accuracy: 0.8555
+Epoch 19: val_accuracy improved from 0.83202 to 0.83623, saving model to ./runs/13-05-2022_15-45-39/model_data/CITYSCAPES_model.h5
+139/139 [==============================] - 90s 648ms/step - loss: 0.4334 - accuracy: 0.8555 - val_loss: 0.5189 - val_accuracy: 0.8362
+Epoch 20/22
+139/139 [==============================] - ETA: 0s - loss: 0.4314 - accuracy: 0.8558
+Epoch 20: val_accuracy did not improve from 0.83623
+139/139 [==============================] - 90s 643ms/step - loss: 0.4314 - accuracy: 0.8558 - val_loss: 0.6113 - val_accuracy: 0.8064
+Epoch 21/22
+139/139 [==============================] - ETA: 0s - loss: 0.4253 - accuracy: 0.8573
+Epoch 21: val_accuracy did not improve from 0.83623
+139/139 [==============================] - 88s 631ms/step - loss: 0.4253 - accuracy: 0.8573 - val_loss: 0.5406 - val_accuracy: 0.8268
+Epoch 22/22
+139/139 [==============================] - ETA: 0s - loss: 0.4153 - accuracy: 0.8612
+Epoch 22: val_accuracy did not improve from 0.83623
+139/139 [==============================] - 88s 635ms/step - loss: 0.4153 - accuracy: 0.8612 - val_loss: 0.5301 - val_accuracy: 0.8335
+Done.
+
+Symbolic Link for Data Model created.
+
+Evaluating Trained Model...
+
+22/22 - 8s - loss: 0.5049 - accuracy: 0.8412 - 8s/epoch - 350ms/step
+Trained model, accuracy: 84.12% 
+
+Accuracy increased by: 78.55% 
+
+
+Process finished with exit code 0
