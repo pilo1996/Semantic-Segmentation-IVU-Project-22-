@@ -5,7 +5,7 @@ Semantic Segmentation problem as project for Image &amp; Video Understanding's c
 ### Labelling the existing dataset
 The python script is able to split the images of the dataset and using K-Means it will be able to re-construct the pixel-clusters and predict a label for each of them in order to have a proper labelling ground of truth to be used then in the training phase. The labelling prediction part must be done, for each mask (i.e., labels of the dataset), after the clustering since the aim of this project is to solve the Semantic Segmentation problem. Without labels it is just a Image Segmentation problem. `K-Means` is the clustering method chosen to perform this operation with `K = 10` classes. The following image shows three examples, the original mask provided in the dataset and the labelled mask as raw float data points.
 
-///TODO INSERIRE example_org-mask-label.png
+![Example with 3 original examples, with its masks and new labels](/example_org-mask-label.png?raw=true "Example Dataset labels")
 
 ### The Neural Network
 Segmentation Models library is used to easily instantiate the NN model in just one line of code. The proposed solution is using the [U-Net model](https://arxiv.org/abs/1505.04597) as NN Model. Here some specs:
@@ -49,16 +49,16 @@ I have been using miniconda and PyCharm set to the Virtual Environment to get ev
 ### Predictions
 In the following image there are 3 examples with 3 desired outputs and 3 predictions. As can be seen, the results are fine but not detailed, especially when it comes to pedestrians segmentation.
 
-///TODO INSERIRE Predictions.png
+![Example with 3 predictions](/Predictions.png?raw=true "Three predictions")
 
 ### Accuracy: `84.12%`
 The results are not bad but can be improved. Data Augmentation will help into enhancing the model generalization.
 
 ### Loss Curve (over 22 Epochs)
-///TODO INSERIRE Loss_curve.png
+![Loss Curve](/Loss_curve.png?raw=true "Loss Curve")
 
 ### Accuracy Curve (over 22 Epochs)
-///TODO INSERIRE Accuracy_curve.png
+![Accuracy Curve](/Accuracy_curve.png?raw=true "Accuracy Curve")
 
 ### Benchmarks
 On 14-inch MacBook Pro (2021, AC powered):
