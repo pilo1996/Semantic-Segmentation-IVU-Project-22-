@@ -1,4 +1,7 @@
 # Semantic Segmentation [IVU Project A.Y. 2021-2022]
+
+[![CodeFactor](https://www.codefactor.io/repository/github/pilo1996/semantic-segmentation-ivu-project-22-/badge)](https://www.codefactor.io/repository/github/pilo1996/semantic-segmentation-ivu-project-22-)
+
 Semantic Segmentation problem as project for Image &amp; Video Understanding's class in Computer Science @ Ca' Foscari University. Project based on Python, TensorFlow and CityScapes (Pairs) dataset.
 
 ## Short Overview
